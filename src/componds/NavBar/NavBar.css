@@ -1,0 +1,35 @@
+/* * {
+    background-color: black;
+} */
+
+nav {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    z-index: 10;
+   
+}
+
+ul {
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size:20px ;
+
+}
+
+
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+   justify-content: center;
+   gap: 15px;
+}
