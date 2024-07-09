@@ -1,10 +1,8 @@
 import React from 'react'
-import './NavBar.css';
-import logo from '../../Source_Image/logo.png';
+import './Navi.css'
+import logo from  '../../Source_Image/logo.png'
 
-
-
-const NavBar = () => {
+const Navi = () => {
   return (
     <div>
         <nav className='container'>
@@ -15,18 +13,16 @@ const NavBar = () => {
                 <li>About Us</li>
                 <li>Campus</li>
                 <li>Testimonials</li>
+                <li> <button className='btn'>Contact us</button></li>
 
              </ul>
 
 
         </nav>
-        
-       
-       
-        
+      
       
     </div>
   )
 }
 
-export default NavBar
+export default Navi

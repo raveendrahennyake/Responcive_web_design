@@ -1,0 +1,35 @@
+.Hero {
+    color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../Source_Image/Main.jpg') no-repeat center center;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+   
+}
+
+.hero-text {
+    align-items: center;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-text h1 {
+    font-size: 65px;
+     font-family: "Baskervville SC", serif;
+     font-weight: 400;
+}
+.hero-text p {
+    font-size: 20px;
+    
+}
+

@@ -1,11 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './Componds/NavBar/NavBar';
+import Navi from './Componds/Navi/Navi.jsx';
+import './Componds/Hero/Hero.jsx';
+import Hero from './Componds/Hero/Hero.jsx';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
+     <Navi></Navi>
+     <Hero></Hero>
+      
+      
+      
+     
       
     </div>
   );
