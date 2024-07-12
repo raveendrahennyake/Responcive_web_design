@@ -23,7 +23,6 @@ ul {
 
 }
 
-
 nav li {
     list-style: none;
 }
@@ -41,9 +40,12 @@ nav ul {
     font-size: 15px;
     border-radius: 30px;
     cursor: pointer;
+    position: relative;
+    bottom: 8px
    
 }
 .container img {
     width: 150px;
 
 }
+

@@ -10,9 +10,9 @@ const Hero = () => {
        
         
        
-        <p>Your support ignites change locally and globally, transforming Penn into a powerful engine that </p>
-        <p>advances knowledge for society’s greatest good.</p>
-        <button className='btn'> More</button>
+        <p id='paragrap1'> support ignites change locally and globally, transforming Penn into a powerful engine that </p>
+        <p className='texttter' id='paragrap1'> knowledge for society’s greatest good.</p>
+        <button className='btn'> More Details</button>
 
       </div>
        
