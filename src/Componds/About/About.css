@@ -1,0 +1,49 @@
+.About {
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 20px;
+  
+}
+.About left_site {
+    flex: basis 40%; ;
+}
+.About right_side {
+     flex: basis 56%; ;
+}
+.About img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#image5 {
+    width: 60px;
+    position: absolute;
+    bottom: -151%;
+    left: 217px;
+}
+.right_side {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right_side h2 {
+     font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+}
+.right_side h1 {
+    font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+   color: blue;
+}
+.right_side p {
+    font-size: 15px;
+}
