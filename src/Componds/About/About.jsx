@@ -19,6 +19,9 @@ const About = () => {
                 <p>Penn’s undergraduate students have the opportunity to pursue 90 majors across four schools. They also often engage across disciplines, forging new paths in research and scholarship.</p>
 
                  <p>Penn is the largest university with a program that enables eligible undergraduates to receive grant-based financial aid packages for eight semesters. The program applies to traditional, dependent students in the four undergraduate schools, who are pursuing their first baccalaureate degree.</p>
+                 
+
+
 
 
 
