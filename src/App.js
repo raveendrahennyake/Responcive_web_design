@@ -6,11 +6,8 @@ import Hero from './Componds/Hero/Hero.jsx';
 import Program from './Componds/Program/program.jsx';
 import Title from './Componds/Title/Title.jsx'
 import About from './Componds/About/About.jsx';
-
-
-
-
-
+import Campus from './Componds/Campus/Campus.jsx';
+import Testomonial from './Componds/Testomoniyal/Testomonial.jsx';
 
 function App() {
   return (
@@ -20,6 +17,10 @@ function App() {
      <Title/>
      <Program/>
      <div className=''> <About/></div>
+     <Campus/>
+     <Testomonial/>
+     
+    
     
      
      

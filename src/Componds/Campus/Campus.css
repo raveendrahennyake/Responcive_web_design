@@ -1,0 +1,47 @@
+.campus {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+   
+    margin-bottom: 40px;
+}
+
+.gallary img {
+    width:25% ;
+    border-radius: 15px;
+}
+.campus h2 {
+    font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+} 
+.campus h1 {
+     font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+}
+.btn-dark {
+    background:#18187d;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+     font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border: gray;
+
+    
+}
+.testomonical {
+    margin-top: 20px;
+}
