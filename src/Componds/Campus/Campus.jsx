@@ -7,7 +7,7 @@ import gallary4 from '../../Source_Image/gallery-4-.png'
 const Campus = () => {
   return (
     <div className='campus'>
-        <h2>Image Gallary</h2>
+        <h2>Image Gallarys</h2>
         <h1>University of Pennsylvania</h1>
         <div className="gallary">
 
