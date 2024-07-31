@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Testomonial.css'
 import tr3 from '../../Source_Image/tr3.png'
 import tr4 from '../../Source_Image/tr4.png'
@@ -6,10 +6,10 @@ import tr8 from '../../Source_Image/tr8.png'
 import tr9 from '../../Source_Image/tr9.png'
 import back from '../../Source_Image/back.png'
 import next from '../../Source_Image/next.png'
-
-
 const Testomonial = () => {
   const sliteforward=()=>{
+    
+    
 
   }
   const sliteBackward=()=>{
@@ -17,9 +17,8 @@ const Testomonial = () => {
   }
 
 
-
   return (
-  
+
         <div className='testonimal'>
              <img className='back-btn' src={back} alt=''/>
             <img className='next-btn' src={next} alt=''/>
@@ -64,7 +63,7 @@ const Testomonial = () => {
                     <div className="user-info">
                       <img src={tr8} alt=''/>
                       <div>
-                        <h2>Kendra Raymond</h2>
+                        <h2>Kendra Raymonds</h2>
                         <span>Pennsylvania State University</span>
                         
                       </div>
