@@ -63,7 +63,7 @@ const Testomonial = () => {
                     <div className="user-info">
                       <img src={tr8} alt=''/>
                       <div>
-                        <h2>Kendra Raymond</h2>
+                        <h2>Kendra Raymonds</h2>
                         <span>Pennsylvania State University</span>
                         
                       </div>
