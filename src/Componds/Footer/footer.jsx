@@ -15,7 +15,7 @@ const footer = () => {
         <div className="footer">
           <div className="left-side">
             <h2>Send a Message</h2>
-            <p>As America’s first university, Penn has a history that dates back to 1740 and shares many ties with the colonial city of Philadelphia and the birth of our nation.</p>
+            <p>As America’s first university, Penn has a that dates back to 1740 and shares many ties with the colonial city of Philadelphia and the birth of our nation.</p>
             <ul>
               <li><img src={contact} alt="" /> +1 123-456-8890</li>
               <li><img src={email} alt="" /> Pennsylvania@Usa</li>
