@@ -8,6 +8,7 @@ import Title from './Componds/Title/Title.jsx'
 import About from './Componds/About/About.jsx';
 import Campus from './Componds/Campus/Campus.jsx';
 import Testomonial from './Componds/Testomoniyal/Testomonial.jsx';
+import Footer from './Componds/Footer/footer.jsx';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
      <div className=''> <About/></div>
      <Campus/>
      <Testomonial/>
+     <Footer/>
+
      
     
     
