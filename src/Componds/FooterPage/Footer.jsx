@@ -1,13 +1,39 @@
 import React from 'react'
-import './footer.css'
+import { useState } from 'react'
+import './Footer.css'
 import contact from '../../Source_Image/contact.png'
 import email from '../../Source_Image/email.png'
 import location from '../../Source_Image/location.png'
 
+const Footer = () => {
+    const [result, setResult] = useState("");
+  const onSubmit = async (event) => {
+    
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
 
-const footer = () => {
+    formData.append("access_key", "605b533f-9f31-43e8-bef9-6e3744049250");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+    
   return (
-      <div className='footers'>
+    <div>
+         <div className='footers'>
         <div className='contact'>
            <h2>Contact Us</h2>
            <h1>Get in Touch</h1>
@@ -26,7 +52,7 @@ const footer = () => {
 
 
           <div className="left-side">
-            <form>
+            <form onSubmit={onSubmit}>
               <label>Your name</label>
               <input type='text' placeholder='your name'/>
                <label>Phone Number</label>
@@ -36,11 +62,8 @@ const footer = () => {
               <label>Write your message</label>
               <textarea name='message' rows="10" cols="30" placeholder="Enter your message" ></textarea>
                <button className='btn-dark'> Submit</button>
-             
-             
-             
-
             </form>
+            <span>{result}</span>
           
 
           </div>
@@ -59,6 +82,9 @@ const footer = () => {
       
     
   )
+      
+    </div>
+  )
 }
 
-export default footer
+export default Footer
