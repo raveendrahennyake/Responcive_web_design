@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import contact from '../../Source_Image/contact.png'
 import email from '../../Source_Image/email.png'
-import location from '../../Source_Image/locations.png'
+import location from '../../Source_Image/location.png'
 
 
 const footer = () => {
